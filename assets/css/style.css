@@ -854,6 +854,13 @@ footer p {
         grid-template-columns: 1fr;
     }
 
+    /* Optimize Social Cards for stacking */
+    .social-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
     .project-gallery {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
@@ -928,6 +935,10 @@ footer p {
         padding: 30px;
     }
 
+    .contact-wrapper {
+        padding: 20px;
+    }
+
     .brand-logo img {
         width: 120px;
         height: 120px;
@@ -937,6 +948,18 @@ footer p {
         width: 40px;
         height: 40px;
         font-size: 1.2rem;
+    }
+
+    /* Social Cards Grid for Mobile */
+    .social-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .social-card {
+        padding: 10px;
+        font-size: 0.9rem;
+        justify-content: center;
     }
 
     /* Achievements Grid */
