@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav N A | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">ABHINAV N A<span class="dot"></span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#connect">Connect</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#brand">Brand</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Section 1: Home (Hero) -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text">Hi, I'm <span class="name-highlight">Abhinav N A</span></h1>
+                <h2 class="typing-text"><span class="typing"></span><span class="cursor">|</span></h2>
+                <p class="tagline">“I build ideas into reality — from circuits to creative designs.”</p>
+                <div class="buttons">
+                    <a href="#works" class="btn btn-primary">View My Work</a>
+                    <a href="#connect" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="education-list hero-education">
+                    <div class="education-card">
+                        <div class="edu-icon"><ion-icon name="school"></ion-icon></div>
+                        <div class="edu-info">
+                            <h4>B.Tech in Electronics & Communication</h4>
+                            <p class="institute">College of Engineering Attingal</p>
+                            <span class="year">Currently Pursuing</span>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="edu-icon"><ion-icon name="school-outline"></ion-icon></div>
+                        <div class="edu-info">
+                            <h4>Higher Secondary (HSE) - 12th</h4>
+                            <p class="institute">KTCT Higher Secondary School, Kaduvayil</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="edu-icon"><ion-icon name="book-outline"></ion-icon></div>
+                        <div class="edu-info">
+                            <h4>Secondary School (CBSE) - 10th</h4>
+                            <p class="institute">Raja Ravi Varma Central School, Kilimanoor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <img src="assets/images/profile.jpeg" alt="Abhinav N A">
+                </div>
+                <div class="tech-circle"></div>
+            </div>
+        </div>
+        <div class="tech-particles"></div>
+    </section>
+
+    <!-- Section 2: Connect -->
+    <section id="connect" class="connect-section hidden">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="connect-grid">
+                <!-- Social Cards -->
+                <div class="social-cards">
+                    <a href="https://www.instagram.com/_.abhinav8866._/" class="social-card instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhinav8866" class="social-card linkedin">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.facebook.com/abhinav8866" class="social-card facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://x.com/_abhinav8866_" class="social-card twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <span>X (Twitter)</span>
+                    </a>
+                    <a href="https://github.com/ABHINAVNA86" class="social-card github">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://github.com/ABHINAVNA86" class="social-card github">
+                        <img src="assets/images/Threads_(app)_logo.svg" alt="Threads" class="threads-icon">
+                        <span>Threads</span>
+                    </a>
+                </div>
+
+                <!-- Contact Info & Form -->
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abhinav.n.a86@gmail.com"
+                                target="_blank">abhinav.n.a86@gmail.com</a>
+                            <ion-icon name="copy-outline" class="copy-icon" title="Copy Email"></ion-icon>
+                        </div>
+                        <div class="info-item">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <a href="https://wa.me/918590020894" target="_blank">+91 8590020894</a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" id="nameInput" placeholder="Your Name" required>
+                        <input type="email" id="emailInput" placeholder="Your Email" required>
+                        <textarea id="messageInput" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Works -->
+    <section id="works" class="works-section hidden">
+        <div class="container">
+            <h2 class="section-title">My Works & Skills</h2>
+
+            <!-- Programming -->
+            <div class="work-category">
+                <h3><ion-icon name="code-slash-outline"></ion-icon> Programming</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><span>C++</span></div>
+                    <div class="skill-card"><span>Python</span></div>
+                    <div class="skill-card"><span>C</span></div>
+                    <div class="skill-card"><span>HTML</span></div>
+                    <div class="skill-card"><span>CSS</span></div>
+                </div>
+            </div>
+
+            <!-- Electronics -->
+            <div class="work-category">
+                <h3><ion-icon name="hardware-chip-outline"></ion-icon> Electronics & Hardware</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><span>Arduino Programming</span></div>
+                    <div class="skill-card"><span>Circuit Design</span></div>
+                    <div class="skill-card"><span>Embedded Projects</span></div>
+                </div>
+            </div>
+
+            <!-- Creative -->
+            <div class="work-category">
+                <h3><ion-icon name="color-palette-outline"></ion-icon> Creative & Design</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><span>Video Editing (DaVinci, AE ,Capcut Pro)</span></div>
+                    <div class="skill-card"><span>Photo Editing (PS, LR ,Canva)</span></div>
+                    <div class="skill-card"><span>UI/UX Design (Figma)</span></div>
+                    <div class="skill-card"><span>Blender 3D</span></div>
+
+                </div>
+            </div>
+
+            <!-- Project Gallery -->
+            <div class="project-gallery">
+                <div class="project-card">
+                    <div class="project-img"><img src="https://via.placeholder.com/300x200/1a1f2e/00f3ff?text=Project+1"
+                            alt="Project 1"></div>
+                    <div class="project-info">
+                        <h4>Project One</h4>
+                        <p>Description placeholder</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"><img src="https://via.placeholder.com/300x200/1a1f2e/bc13fe?text=Project+2"
+                            alt="Project 2"></div>
+                    <div class="project-info">
+                        <h4>Project Two</h4>
+                        <p>Description placeholder</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"><img src="https://via.placeholder.com/300x200/1a1f2e/00f3ff?text=Project+3"
+                            alt="Project 3"></div>
+                    <div class="project-info">
+                        <h4>Project Three</h4>
+                        <p>Description placeholder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Brand -->
+    <section id="brand" class="brand-section hidden">
+        <div class="container">
+            <h2 class="section-title">My Clothing Brand</h2>
+            <div class="brand-content">
+                <div class="brand-logo">
+                    <img src="assets/images/eightysix1.jpg" alt="Brand Logo">
+                </div>
+                <div class="brand-text">
+                    <h3>EIGHTY SIX</h3>
+                    <p>EIGHTY SIX is an apparelbrand andclothingbrand
+                        thatbrings youoriginaldesigns andcustom bulk
+                        orders with in-housedesign..</p>
+                    <a href="https://wa.me/919400184886" target="_blank" class="btn btn-primary">Contact for Orders
+                        <ion-icon name="logo-whatsapp"></ion-icon></a>
+                </div>
+            </div>
+            <div class="slider-container">
+                <button class="scroll-btn left-btn" id="scrollLeft"><ion-icon
+                        name="arrow-back-outline"></ion-icon></button>
+                <div class="product-grid">
+                    <div class="product-card"><img src="assets/images/1.png" alt="Product"></div>
+                    <div class="product-card"><img src="assets/images/2.png" alt="Product"></div>
+                    <div class="product-card"><img src="assets/images/3.png" alt="Product"></div>
+                    <div class="product-card"><img src="assets/images/4.png" alt="Product"></div>
+                    <div class="product-card"><img src="assets/images/5.png" alt="Product"></div>
+                    <div class="product-card"><img src="assets/images/6.png" alt="Product"></div>
+                </div>
+                <button class="scroll-btn right-btn" id="scrollRight"><ion-icon
+                        name="arrow-forward-outline"></ion-icon></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Services & Achievements -->
+    <section id="services" class="services-section hidden">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <ul class="service-list">
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> Circuit & Arduino Development</li>
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> UI/UX Design</li>
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> Video Editing</li>
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> Graphic Design</li>
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> Website Creation</li>
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> 3D Modeling</li>
+                <li><ion-icon name="checkmark-circle-outline"></ion-icon> CLOTHING ORDERS & CUSTOM BULK ORDERS</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section 6: Achievements -->
+    <section id="achievements" class="achievements-section hidden">
+        <div class="container">
+            <h2 class="section-title">Achievements & Volunteering</h2>
+
+            <div class="achievements-grid">
+                <!-- Leadership Column -->
+                <div class="column">
+                    <h3 class="subsection-title">Leadership & Organizational Roles</h3>
+                    <ul class="achievement-list">
+                        <li>
+                            <ion-icon name="people-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">NSS Volunteer Leader</span>
+                                <span class="org">KTCT Higher Secondary School</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="megaphone-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Media Lead</span>
+                                <span class="org">ISTE EXECOM’25</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="color-palette-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Design Team Member</span>
+                                <span class="org">IEEE EXECOM’25</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="camera-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Media Team Member</span>
+                                <span class="org">IEDC EXECOM’25</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="videocam-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Media Volunteer</span>
+                                <span class="org">Daksha Yantra 2025</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Technical Engagement Column -->
+                <div class="column">
+                    <h3 class="subsection-title">Technical Engagement</h3>
+                    <ul class="achievement-list">
+
+                        <li>
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Team Member</span>
+                                <span class="org">FOSS CREATE 101</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Team Member</span>
+                                <span class="org">FOSS EMBED 202</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="train-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Team Member</span>
+                                <span class="org">FOSS TRAIN 303</span>
+                            </div>
+                        </li>
+                        <li>
+                            <ion-icon name="bug-outline"></ion-icon>
+                            <div class="achievement-details">
+                                <span class="role">Team Member</span>
+                                <span class="org">FOSS HACK 404</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Abhinav N A — All Rights Reserved</p>
+            <a href="#home" class="back-to-top"><ion-icon name="arrow-up-outline"></ion-icon> Top</a>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Expanded Image">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-# Adithyan
-kuttan
