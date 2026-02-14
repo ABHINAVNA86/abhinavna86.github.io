@@ -769,6 +769,34 @@ footer p {
     margin-right: 5px;
 }
 
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-education {
+    margin-top: 30px;
+}
+
+
+.education-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    background: rgba(0, 243, 255, 0.05);
+    border-color: var(--neon-cyan);
+    transform: translateX(5px);
+}
+
 /* ----------------------------------------------------
    SCROLL BAR
 ---------------------------------------------------- */
